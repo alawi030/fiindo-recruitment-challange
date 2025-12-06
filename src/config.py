@@ -14,3 +14,9 @@ ENDPOINTS = {
     "cash_flow": f"{BASE_URL}/financials/{{symbol}}/cash_flow_statement",
     "eod": f"{BASE_URL}/eod/{{symbol}}",
 }
+
+TARGET_INDUSTRIES = [
+    "Banks - Diversified",
+    "Software - Application",
+    "Consumer Electronics",
+]
